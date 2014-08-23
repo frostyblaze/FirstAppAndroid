@@ -2,6 +2,7 @@ package my.first.app;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MyActivity extends Activity {
     /**
@@ -16,6 +17,7 @@ public class MyActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
+        Log.i("MyActivity", "Started");
     }
 
     @Override
